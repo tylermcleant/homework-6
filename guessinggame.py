@@ -7,9 +7,13 @@ number_of_guesses = 0
 #System will output/display the users name and querying the user to enter a number between one and ten. 
 print('okay! '+ player_name+ ' I am Guessing a number between 1 and 10:')
 
+#Loop is being wrapped in 'if' statements for the system to check the counter does not exceed five attempts/guesses. 
 while number_of_guesses < 5:
+    #This is setting up the variable 'guess' as an integer that will be input by the user/guesser
     guess = int(input())
+    #Sets up the variable to represent the number of guesses it took for the user to correctly solve the secret number
     number_of_guesses += 1
+    #System will notify user if the guess is too high or low from the number randomly selected by system. There is also a 'break' failsafe to resume the next lines of code to print message.
     if guess < number:
         print('Your guess is too low')
     if guess > number:
