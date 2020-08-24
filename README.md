@@ -1,5 +1,12 @@
+# What is this app supposed to do?
+### Here's a demonstration. 
+![](PythonDemo1.gif)
+
+
+
+
 # The Guessing Game 
-![](/pythonHomework/images/gamePicture.png)
+![](/images/gamePicture.png)
 
 ## Game Description 
 #### The Guessing Game is an interactive game in created with `python` programming language 
@@ -38,20 +45,9 @@
 * All Instructions Completed: 25 pts
 * Backend Functionality: 25 pts
 ---
-## Remember TechBridge TECH Goals
-
-**_T_** : Time management skills will provide a positive guide for you.
-
-**_E_** : Effort is an important part of the success of the course.
-    
-**_C_** : Communication regularly with the instructor and other students is imperative.
-    
-**_H_** :  Homework, assignments and quizzes should be submitted by deadlines.
-
----
 ### Bonus
 * Deploy the guessing game in python version 2.7 & 3.8.4
 
-## ❤ **_Happy Coding_** ❤
-![](/pythonHomework/images/TechBridgeLogo.png)
+
+
 
